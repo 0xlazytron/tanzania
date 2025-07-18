@@ -1,0 +1,13 @@
+{
+  "name": "tanzania-safari-tours",
+  "version": "1.0.0",
+  "description": "Tanzania Safari Tours - Experience the raw beauty of Africa's most spectacular wildlife destinations",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site deployed'"
+  },
+  "keywords": ["tanzania", "safari", "tours", "africa", "wildlife"],
+  "author": "Tanzania Safari Tours",
+  "license": "MIT"
+}
