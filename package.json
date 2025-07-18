@@ -4,10 +4,14 @@
   "description": "Tanzania Safari Tours - Experience the raw beauty of Africa's most spectacular wildlife destinations",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
-    "start": "echo 'Static site deployed'"
+    "build": "cp index.html dist/index.html || copy index.html dist\\index.html",
+    "start": "echo 'Static site deployed'",
+    "dev": "echo 'Development server not needed for static site'"
   },
   "keywords": ["tanzania", "safari", "tours", "africa", "wildlife"],
   "author": "Tanzania Safari Tours",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
 }
